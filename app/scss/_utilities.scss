@@ -1,0 +1,36 @@
+// COLORS
+.bg--dark {
+	background-color: $bg-footer;
+	color: $font-footer-text-color;
+}
+
+// TEXT
+.display--1, .display--2 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.display--1 {
+	font-size: 1.1rem;
+	letter-spacing: .2rem;	
+}
+
+.display--2 {
+	font-size: 1rem;
+}
+
+// BOXES
+.container {
+	width: $container-width;
+	margin-left: auto;
+	margin-right: auto;
+
+	@include breakpoint($breakpoint-md) {
+		width: 95%;
+	}
+
+	// Cela equivaut à ecrire ça :
+		// @media screen and (max-width: $breakpoint-md) {
+		// 	width: 100%;
+		// }
+}

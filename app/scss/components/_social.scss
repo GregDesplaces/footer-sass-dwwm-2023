@@ -1,0 +1,41 @@
+.social {
+
+	span {
+		display: none;
+	}
+
+	a {
+		display: inline-block;
+		height: 1rem;
+		width: 1rem;
+		background-position:left;
+		background-repeat: no-repeat;
+		background-size: 1rem;
+		transition: all .5S ease-in-out;
+		// background: red;
+		border-right: solid 2px $grey;
+		padding-right: 1.3rem;
+		
+		&:last-child {
+			border-right: none;
+			padding-right: 0;
+		}
+
+		&:hover {
+			// background-size: 1.2rem;
+			transform: scale(1.2);
+		}
+	}
+
+	&__facebook {
+		background-image: url('../img/facebook.png');
+	}
+
+	&__twitter {
+		background-image: url('../img/twitter.png');
+	}
+
+	&__behance {
+		background-image: url('../img/behance.png');
+	}
+}

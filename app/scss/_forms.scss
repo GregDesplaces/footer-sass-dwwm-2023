@@ -1,0 +1,33 @@
+form {
+	label {
+		display: none;
+	}
+
+	textarea {
+		resize: none;
+		min-height: 150px;
+	}
+
+	input, textarea {
+		display: inline-block;
+		background: transparent;
+		border: 1px solid $font-footer-form-color;
+		color: $font-footer-text-color;
+		padding: .3rem .6rem ;
+
+		&:focus, &:active, &:focus-visible {
+			outline: none;
+			box-shadow: 0px 0px 5px $font-footer-text-color;
+		}
+	}
+
+	// FIXME : attention à l'ombre pour le bouton submit
+	input:not([type="submit"]):active-visible {
+			box-shadow: none;
+	}
+
+	*::placeholder {
+		// FIXME : attention au darken de firefox 
+		@extend p;
+	}
+}

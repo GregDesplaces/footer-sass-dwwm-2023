@@ -1,0 +1,16 @@
+.btn {
+	padding: .3rem 2rem;
+	font-size: .8rem;
+	color: lighten($font-footer-text-color, 30%);
+	text-transform: capitalize;
+	letter-spacing: $letter-spacing;
+
+	&--grey {
+		background: $grey;
+		border: 1px solid $grey;
+
+		&:hover {
+			background: transparent;
+		}
+	}
+}

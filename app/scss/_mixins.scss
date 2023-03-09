@@ -1,0 +1,20 @@
+@mixin breakpoint($breakpoint-max, $breakpoint-min:null) {
+	@if $breakpoint-min == null {
+		@media screen and (max-width: $breakpoint-max) {
+			@content;
+		}
+	} @else {
+		@media screen and (min-width: $breakpoint-min) and (max-width: $breakpoint-max) {
+			@content;
+		}
+	}
+}
+
+// Headings généréer automatiquements
+@mixin headings($from: 1, $to: 6){
+	@for $i from $from through $to{
+	  h#{$i}{
+		@content
+	  }
+	}
+  };

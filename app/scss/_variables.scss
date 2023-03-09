@@ -1,0 +1,39 @@
+// FONT 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Montserrat:wght@500&family=Roboto:ital@0;1&display=swap');
+
+$font: 'Roboto', 'Crimson Text', sans-serif;
+$font-headings: 'Montserrat', sans-serif;
+$letter-spacing: .05rem;
+
+// COLORS
+$lightgrey : #a2a2a3;
+$grey: #454545;
+$dark-grey : #292929;
+
+$bg-body: $lightgrey;
+$bg-footer: $dark-grey;
+$font-footer-text-color: $lightgrey;
+$font-footer-form-color: $grey;
+
+// MARGINS
+$margin: 2rem;
+$margin-xs: $margin*0.25;
+$margin-sm: $margin*0.5;
+$margin-lg: $margin*2;
+$margin-xl: $margin*3;
+
+// PADDINGS
+$padding: .8rem;
+$padding-xs: $padding*0.25;
+$padding-sm: $padding*0.5;
+$padding-lg: $padding*2;
+$padding-xl: $padding*3;
+
+// BREAKPOINTS
+$breakpoint-xs: 576px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+
+//CONTAINER
+$container-width: $breakpoint-md; 
