@@ -5,7 +5,7 @@
 
 ## 2. Utilisation
 
-- Cloner le dépot
+- Cloner le [dépot](https://github.com/GregDesplaces/footer-sass-dwwm-2023.git) 
 - Installer les dépendances avec la commande 
 ```
 npm install
