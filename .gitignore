@@ -1,0 +1,8 @@
+# IDE SETTINGS
+.vscode
+
+# DEPENDANCIES
+node_modules
+
+# TRANSPILED CSS
+public/css/*
